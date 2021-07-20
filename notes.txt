@@ -1,0 +1,50 @@
+open terminal / command prompt
+
+
+type python press enter
+
+if you found some python version starts with 3.X then
+    its good you have python
+if not ?
+    then
+    how to install python?
+
+visit https://www.python.org/downloads/
+download and install from above website
+
+Which version we will use in our course?
+    python 3.X is good
+
+what are the s/w we need to install?
+
+1) Python
+2) Pycharm
+
+Pycharm - community edition
+visit
+https://www.jetbrains.com/pycharm/download/#section=windows
+download community edition as per your OS
+----------------------------------------------------------
+
+1980
+1989 -> Guido Van Rossum  ABC -> SETL
+
+1st version 1994 python 1
+2nd version 2000 python 2
+3rd version 2008 python 3 --> 3.9.X
+
+python 2 vs python 3
+
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
