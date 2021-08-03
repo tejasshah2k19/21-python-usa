@@ -37,6 +37,64 @@ python 2 vs python 3
 
 ----------------------------------------------------------
 
+python3
+
+
+python file have .py extension
+
+to print something on console we have to use print() function
+print function will put \n in every line automatically
+
+for variable we dont need to declare just assign value to a variable and use it.
+e.g
+    a = 10 # this will take a as int
+    b = "admin" # this will assign b as string
+    c = 12.12 # float
+
+# => hashtag is used to place single line comment
+
+"""
+    i am multiline
+        comment
+"""
+
+'''
+    we can also
+        use single quote for
+            comments
+'''
+
+if we want to print type of any variable we can use type()
+a = 90
+print(type(a))  # int
+
+
+***PYTHON is an indentation oriented language.
+
+------------------------------------------------------------------
+
+input() -> scan an input from console
+            it consider data as string
+
+casting function
+int() -> convert string data into integer
+float() -> str --> float
+str() ->  int / float -> str
+chr() ->  character
+
+------------------------------------------------------------------
+
+conditional statement
+
+1) if
+2)
+
+
+
+
+
+
+
 
 
 
