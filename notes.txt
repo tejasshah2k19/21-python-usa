@@ -87,10 +87,29 @@ chr() ->  character
 conditional statement
 
 1) if
-2)
+2) elif...
+3) if inside if - nested if
 
+------------------------------------------------------------------
 
+Take 10 numbers from user and print sum of it.
+1
+2
+3
+4
+5
+10
+11
+12
+13
+14
 
+sum = XXX
+
+1) for each
+
+for i in range(start,end+1):
+    logic
 
 
 
