@@ -111,6 +111,80 @@ sum = XXX
 for i in range(start,end+1):
     logic
 
+2) while
+
+
+while condition:
+    loop body
+
+i=1
+while i<=10:
+    print(i)
+    i=i+1
+    
+------------------------------------------------------------------
+
+string -> collection of characters
+
+name = "royal"
+name = 'royal'
+
+for string we can use both single quote or double quote , both are same
+
+string can be access via index , index start with 0 and end with length-1
+
+name = "royal"  # u can access individual using index
+name[0] => r
+name[1] => o
+name[2] => y
+
+how many character are in string? or length of a string ?
+
+len(name) # => 5
+
+In python we can also have negative index or backward index
+
+name = "royal"
+name[-1]  => l
+name[-3]  => y
+
+
+we can also have slicing for string in python
+
+name = "royaleducation"
+
+name[0:5] => print 0,1,2,3,4 # royal
+name[3:7] => aled
+
+name[::] => print every thing
+name[::2]=> jump 2 character every time
+
+name[::-1] =>  reverse string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
