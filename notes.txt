@@ -161,6 +161,27 @@ name[::2]=> jump 2 character every time
 
 name[::-1] =>  reverse string
 
+***********string is immutable*********
+#first
+str = "Royal Education"
+str.upper()
+print(str) # Royal Education
+
+
+#second
+str = "Royal Education"
+str = str.upper()
+print(str) # ROYAL EDUCATION
+
+in and not in
+"papa" in "jony jony yes papa" => True
+----------------------------------
+
+1) Take String and SubString from user and check substring is present in string or not ?
+2) take String and count how many time given word is present in string
+
+----------------------------------
+
 
 
 
