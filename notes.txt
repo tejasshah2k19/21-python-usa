@@ -182,6 +182,47 @@ in and not in
 
 ----------------------------------
 
+upper
+lower
+split
+replace
+strip -> remove given character from beg and end
+lstrip -> remove given character from beg (left side)
+rstrip -> remove given character from end (right side)
+
+capitalize() -> converts the first character to uppercase
+str = "royal"
+print(str.capitalize()) # Royal
+
+count() => count any value in a string
+
+islower() => check all the characters are in lower, then return True else False
+isupper() => opposite of islower()
+
+title() => converts the first character of each word to upper case
+str = "jony jony yes papa"
+str.capitalize() # Jony jony yes papa
+str.title()      # Jony Jony Yes Papa
+
+-----------------------------------------------------
+
+Take one string from user , format the string in such a way so all extra spaces will remove between words.
+input :  jony     jony   yes papa
+output:  jony jony yes papa
+
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
