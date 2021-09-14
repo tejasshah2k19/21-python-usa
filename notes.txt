@@ -214,14 +214,32 @@ output:  jony jony yes papa
 ---------------------------------------------------------------
 
 
+#function  :- a function is a block of code , which only runs when it's called.
+              collection of code , set of instructions , which only runs when it's called.
+              function can return data
+
+             void add(){
+
+             }
+
+             def add():
+                a = int(input())
+                b = int(input())
+                print(a+b)
+             print("bye")
+
+            #calling
+            add()
 
 
+# we can also have argument and return type in function
+argument is used for the input
+return type is used for result , we can reuse it
 
 
-
-
-
-
+# create one function that read two numbers from user and find out the max number
+# now u have max from two numbers , call one more function that accept that max number and
+# print it's odd or even.
 
 
 
