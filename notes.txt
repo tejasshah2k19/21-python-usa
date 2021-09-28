@@ -243,6 +243,55 @@ return type is used for result , we can reuse it
 
 
 
+# create a function that read one number from user and find square of a number.
+
+# create a function that accept two numbers as argument/parameter and
+#find out both can divisible by 2 or 5.
+
+
+# we can use default argument if we want to skip values for parameters some time.
+def add(a,b=10):
+    print(a+b)
+
+# default argument must be start from right to left.
+def sum(a,b,c=7,d=10,e=5,f=5):
+    print(a+b+c+d+e+f)
+
+# we can pass  value using named parameter so we can assign value to selected parameter.
+def sum(a=5,b=6,c=7,d=10,e=5,f=5):
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(e)
+    print(f)
+    print(a+b+c+d+e+f)
+
+
+---------------------------------------------------------------------------
+# take 5 numbers from user and print max number from it also print all five numbers.
+# take 15 numbers from user and print max number from it also print all 15 numbers.
+
+array-->  list
+
+
+List => we can use list to store multiple items in a single variable.
+        it is built in data type in python to store collection data.
+        it is also a sequential data type.
+        we can create list using [ ] -> square brackets
+        all the data items are separated by comma.
+        list is a dynamic , we don't need to specify size
+        it will grow automatically when we add elements.
+
+numbers = []  # blank list
+numbers = [1,2,3,4,5]
+
+
+
+
+
+
+
 
 
 
