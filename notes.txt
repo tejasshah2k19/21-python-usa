@@ -286,6 +286,19 @@ List => we can use list to store multiple items in a single variable.
 numbers = []  # blank list
 numbers = [1,2,3,4,5]
 
+we can access data from list using index. index starts from 0
+print(numbers[3])
+
+in python's list we can have mixtures of data .
+data = [ 1,2,"royal",30.50,55]
+
+# how to scan and add those numbers into list
+numbers =  []
+
+for i in range(1,6):
+    num = int(input("Enter number"))
+    numbers.append(num)
+
 
 
 
