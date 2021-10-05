@@ -272,7 +272,7 @@ def sum(a=5,b=6,c=7,d=10,e=5,f=5):
 # take 5 numbers from user and print max number from it also print all five numbers.
 # take 15 numbers from user and print max number from it also print all 15 numbers.
 
-array-->  list
+array-->  list --> dynamic
 
 
 List => we can use list to store multiple items in a single variable.
@@ -286,7 +286,8 @@ List => we can use list to store multiple items in a single variable.
 numbers = []  # blank list
 numbers = [1,2,3,4,5]
 
-we can access data from list using index. index starts from 0
+we can access data from list using index.
+index starts from 0 ,
 print(numbers[3])
 
 in python's list we can have mixtures of data .
@@ -299,6 +300,14 @@ for i in range(1,6):
     num = int(input("Enter number"))
     numbers.append(num)
 
+
+---------------------------------------------------------------------------
+Task
+1)take 5 numbers from user and print max number from it also print all five numbers.
+2)take 5 numbers from user and count total odd and even also perform sum of odd and even numbers.
+---------------------------------------------------------------------------
+3) create a list with 5 numbers , take number from user and check it is present in list , if present
+   remove it from list and if not present then print message number not found.
 
 
 
