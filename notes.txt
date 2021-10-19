@@ -355,6 +355,96 @@ Task
 
  After Sorting
  1,4,5,6,22,33,660
+-------------------------------------
+
+in  operator in list
+not in
+
+list = [ 11,22,33,44,55,66]
+
+if 55 in list:
+    print("55 is present")
+else:
+    print("55 is not present")
+
+
+#all the methods - list
+
+append() - add an element to the end of the list
+
+insert() - insert an element at a specified index
+list = [1,2,3,4,5,6]
+list.insert(1,22);// 1 is an index ->
+print(list) # 1 22 2 3 4 5 6
+
+
+extend() -> if we have two list we can merge both using extend
+
+list1= [1,2,3,4,5]
+list2= [6,7,8,9,10]
+list1.extend(list2)
+print(list1)
+
+remove() -> remove any item from list
+list=[44,55,66,77,88]
+list.remove(66)
+
+pop() -> remove data from list using index
+list=[44,55,66,77,88]
+list.pop(2) # 66
+
+clear() -> remove all the items from list
+list=[44,55,66,77,88]
+list.clear()  # list is empty now
+
+sort() -> sort the element in ascending order
+list=[66,55,44,77,33]
+list.sort() # 33 44 55 66 77
+
+list=[66,55,44,77,33]
+list.sort(reverse=True)  # sort in descending order
+---------------------------------------------------------
+
+Tuples :-
+    tuples are used to store multiple data items in a single data name.
+    data items are ordered and unchangeable.
+    tuple is read only data type
+    you can read data items from tuple using index. same index starts with 0
+    it also allow duplicate data items.
+    ( ) => is used to create tuple
+    tuple() -> is also used to create tuple
+
+
+1) create tuple with 5 name and search given name is present in tuple or not
+2) create tuple with 5 numbers find max and total number of even numbers from it.
+
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
