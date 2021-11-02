@@ -419,9 +419,42 @@ Tuples :-
 2) create tuple with 5 numbers find max and total number of even numbers from it.
 
 ---------------------------------------------------------
+set => sets are also used to store multiple data items in a single data name.
 
 
+defination :- set is a collection of data items which is unorderd and unindexed.
+              we used { } to create sets
+              city  = { abc,def,xyz }
+              sets does not allow duplicate values
+              city = { abc,def,xyz,abc }
+              print(city)  # { abc,def,xyz }
 
+1) create 1 set , ask 6 numbers to the user and print all even numbers.
+---------------------------------------------------------
+dictionary :-
+            it is used to store data with key:value pair.
+
+            user = {
+                    "firstName":"raj",
+                    "city":"ahmedabad",
+                    "dob":"19-jan-1955"
+                   # "firstName":"sf"  # over write
+            }
+
+            keys are always unique but value can be duplicate
+
+            how to access data from dictionary?
+            print(user["firstName"])
+
+1) create 1 product dictionary having ,
+        name of the product
+        price
+        qty
+        category
+        mfgDate
+        expDate
+        take input from user.
+        print product dictionary
 
 
 
