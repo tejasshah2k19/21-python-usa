@@ -5,14 +5,18 @@
     we need to make menu driven app so user can add any new contact, search existing contact by name
     also modify existing contacts.
 
+
+    search:
+        ram
+        ram  ram@gmail.com  12345678
+
+        ravan
+        no user found
 """
-
 users = []  # main list in which all users information will store
-
 while True:
     print("Press\n1 For New Contact\n2 For Search Contact\n3 For Modify Contact\n0 for Exit \nEnter Your choice")
     choice = int(input())
-
     if choice == 1:
         # add contact
         print("Enter firstname")
@@ -21,13 +25,18 @@ while True:
         email = input()
         print("Enter Contact Num")
         contactNum = input()
-
         #single user information
         user = {"firstName":firstName,"email":email,"contactNum":contactNum}
         users.append(user)
     elif choice == 2:
         #search contact
-        print(users)
+        # print(users)
+        print("Enter FirstName of User For Search :- ")
+        firstName = input() #Ram
+        for user in users:
+            if user.get("firstName") == firstName :
+                print(user)
+
     elif choice ==  3:
         #modify
         pass
