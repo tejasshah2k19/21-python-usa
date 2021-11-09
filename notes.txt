@@ -455,6 +455,37 @@ dictionary :-
         expDate
         take input from user.
         print product dictionary
+----------------------------------------------------------------------------------------------
+
+telephone directory :-
+
+in phoneBook App we have information of the users , firstname email and their contactnumber
+
+we need to make menu driven app so user can add any new contact, search existing contact by name
+also modify existing contacts.
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
