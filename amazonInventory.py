@@ -16,7 +16,6 @@ productList = []  # list is empty
 while True:
     print("Press\n1. Add Product\n2. List All Product\n3. Search Product By Id\n4. exit")
     print("\nEnter your choice")
-
     choice = int(input())
 
     if choice == 1:
@@ -34,7 +33,12 @@ while True:
     elif choice ==2:
         print(productList)
     elif choice ==3:
-        pass
+        print("Enter ProductID")
+        productId = input()
+
+        for p in productList:
+            if p.get("productId") == productId :
+                    print(p)
     elif choice == 4:
         exit(0)
 
