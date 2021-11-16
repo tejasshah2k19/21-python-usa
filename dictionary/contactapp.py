@@ -38,7 +38,15 @@ while True:
                 print(user)
 
     elif choice ==  3:
-        #modify
+        print("Enter FirstName of user for update :- ")
+        firstName = input()
+        for user in users:
+            if user.get("firstName") == firstName:
+                print("Enter email")
+                email = input()
+                print("Enter contanctnum")
+                contactNum = input()
+                user.update({"email":email,"contactNum":contactNum})
         pass
     elif choice == 0:
         exit(0)

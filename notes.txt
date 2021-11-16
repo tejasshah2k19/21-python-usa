@@ -466,6 +466,35 @@ also modify existing contacts.
 
 ----------------------------------------------------------------------------------------------
 
+Amazon Inventory :-
+
+    For Amazon we have to maintain all the stocks details.
+    stock contains information about products .
+    products :-  unique id of product , name , category , quantity and price.
+
+    1. Add Product
+    2. List All Product
+    3. Search Product By Id
+    4. exit
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
