@@ -480,6 +480,71 @@ Amazon Inventory :-
 ------------------------------------------------------------------------------------------------
 
 
+list            tuple               set             dictionary
+x= []            x=()               x={}             x={}
+
+all four collection class are used to store multiple data items
+all four collections class can store any type of data [ no data type limitation ]
+
+
+###LIST###
+list can have duplicate items
+list can be modified
+x = [1,2,3,4,5,1,2,3,4,5]
+
+list can be access using index , index starts with 0
+x[0] = 1000
+x = [1000,2,3,4,5,1,2,3,4,5]
+print single data from list
+print(x[0]) # 1000
+
+
+###tuple###
+tuple can have duplicate values
+x = (1,2,3,1,2,3)
+tuple can not modified
+print single data from tuple
+print(x[0]) # 1
+
+
+###set###
+set does not allow duplicate values
+x = {1,2,3,4,5,1,2}
+print(x) # 1,2,3,4,5,
+you can not access single data item using index
+
+
+#dictionary
+mixtures of data with data name
+dictionary will store data with key ,value pair
+
+x = { 'name':'royal'}
+x = { 'name':'royal','city':'ahmedabad'}
+print single item from dictionary
+print(x['name'])  # if key does not exists it throws an error
+print(x.get('name')) #no runtime error if key does not exists
+
+
+------------------------------------------------------------------------------------------------
+#REV
+
+
+which function is used to read data from console?
+input()
+input function read data with string data type by default.
+
+to print data on console?
+print()
+
+
+to cast string data into integer ?
+int()
+
+
+
+
+
+
 
 
 
