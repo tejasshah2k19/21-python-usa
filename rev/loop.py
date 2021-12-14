@@ -88,7 +88,7 @@ for i in range(start,end+1):
 
 
 """
-    mulitplication table of a number
+    multiplication table of a number
 """
 
 

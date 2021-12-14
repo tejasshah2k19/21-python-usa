@@ -541,17 +541,38 @@ to cast string data into integer ?
 int()
 
 
+-----------------------------------------------------------
 
 
+in python when we want to use variable with class level scope we use self keyword.
+this self keyword help us to use our variable in entire class
+if we do not use self keyword then variable is only declared inside method
+
+e.g
+
+    def add(self):
+     a=10  # this a variable can only access inside add method not in other method
+     b=20
+     print(a+b)
+
+    def sub(self):
+        print(a) # error
 
 
+   def add(self):
+      self.a = 10  # a variable can access inside add and other mehtods also
+      self.b = 20
+      print(self.a+self.b);
+
+  def sub(self):
+    print(self.a) # this works and print 10
 
 
-
-
-
-
-
+in python all the methods must have self as a first argument in class.
+so that you can access instance variable using self keyword
+if your method  is outside the class then we dont need to write self.
+to assing some default value to the variable we used constructor  in python
+we can create constructor using __init__(self).
 
 
 
