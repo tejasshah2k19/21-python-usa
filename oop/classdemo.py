@@ -1,4 +1,5 @@
 class Student:
+
     #default constructor
     def __init__(self):
         self.name = ""
@@ -28,6 +29,7 @@ class Student:
 # create object
 
 s = Student()
+
 s.getData()
 s.calculateResult()
 s.printData()

@@ -571,8 +571,35 @@ e.g
 in python all the methods must have self as a first argument in class.
 so that you can access instance variable using self keyword
 if your method  is outside the class then we dont need to write self.
-to assing some default value to the variable we used constructor  in python
+to assign some default value to the variable we used constructor  in python
 we can create constructor using __init__(self).
+
+
+-----------------------------------------------------------------------
+
+create an application for inventory management.
+app will store information about the product , name of the product , price , quantity , some unique number to product.
+you have to design some menu for add and list of the product.
+
+-----------------------------------------------------------------------
+Inventory App:-
+    we have to maintain products detail in inventory, admin can add and list products using app.
+    product ,  name,price,quantity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
