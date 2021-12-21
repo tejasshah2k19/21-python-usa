@@ -585,7 +585,14 @@ you have to design some menu for add and list of the product.
 Inventory App:-
     we have to maintain products detail in inventory, admin can add and list products using app.
     product ,  name,price,quantity.
+-----------------------------------------------------------------------
+Books App:-
+    class Book
+        variable: bookName,price,author
+        getdata
+        printdata
 
+-----------------------------------------------------------------------
 
 
 
