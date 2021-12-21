@@ -1,4 +1,4 @@
- class Product:
+class Product:
     #constructor
     def __init__(self):
         self.name = ""
@@ -17,21 +17,17 @@
         print(self.name,"  ",self.price,"  ",self.quantity)
 
 
-
-p = Product()
+# list -> can store multiple data items
+list = []
 while True:
     print("1 For Add Product\n2 For List Products\n3 For Exit")
     choice = int(input())
-
     if choice == 1:
+        p = Product()
         p.getData()
+        list.append(p)  # p , p , p ,p
     elif choice == 2:
-        p.printData()
+        for p in list:
+            p.printData()
     elif choice == 3:
         exit(0)
-
-
-
-
-
-
