@@ -595,6 +595,163 @@ Books App:-
 -----------------------------------------------------------------------
 
 
+which function we use to print data in python?
+print()
+
+to scan data we use ?
+input()
+
+to convert string data into integer we used?
+int()
+
+to test a condition we use?
+if
+
+for repeat task we can use?
+loop - for ,while
+
+
+how to find total number of characters present in a string?
+len()
+x = "royal"
+len(x) => 5
+
+how to convert all character in uppercase in a string?
+upper()
+
+which concept of python is use when we want to store 10 names?
+list
+name = [ "x","y","z","x" ]==>4
+which concept of python is use when we want to store 10 names --> unique name -> no duplicate?
+set
+name = {"x","y","z","x"}=>3
+
+which collection is used to store data in key:value pair?
+dictionary
+data = { "name":"ram","email":"ram@gmail.com"}
+
+1) take two numbers from user and find out max from it.
+
+pint("enter two numbers")
+a = int(input())
+b = int(input())
+if a > b :
+    print("a is max")
+else:
+    print("b is max")
+
+2) take number[n] from user , print 1 to n using loop
+
+3) take number from user and print all even number from n.
+ex.
+enter limit
+10
+2 4 6 8 10
+
+print("enter num")
+n = int(input())
+i=2
+while i<=n :
+    print(i)
+    i=i+2
+
+4) take number from user and print multiplication table
+
+print("enter num")
+n = int(input())
+
+i=1
+
+while i<=10 :
+   print(n," * ",i," = ",n*i)
+
+
+5) take 3 names from user and store into list and then print list
+
+list = []
+for i in range(1,4):
+    name = input("enter name")
+    list.append(name)
+print(list)
+
+
+6) take 5 numbers from user and store into list and find out sum of all numbers.
+
+
+-----------------------------------------------------------
+
+class A:
+    def add(self):
+        pass
+
+class B:
+    def sub(self):
+        pass
+
+
+ using object of B class can i access add of A class ?
+  yes using inheritance
+
+  inheritance -> by which object of one class can access property  of another class
+
+1) single level [ A B ]
+2) multi level  [ A-B-C]
+3) hybrid       [ combination of any 2 ]
+4) hirerchical  [ tree structure ]
+5) multiple    [ C -> A B ]
+
+
+create class A with add method
+create class B with sub method
+create class C  with mul method
+
+now perform inheritance ,
+        C is child of A and B
+        using object of c call all the method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
